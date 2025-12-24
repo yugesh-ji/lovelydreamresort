@@ -15,13 +15,13 @@ const About = () => {
                         <div className="col-xl-5 col-lg-6 col-md-8 col-12 offset-xl-6 offset-lg-4 offset-md-2">
                             <div className="wpo-about-content">
                                 <div className="about-title">
-                                    <span>Exclusive Offer</span>
-                                    <h2>Enjoy Your Dream Vacation In switzerland</h2>
+                                    <span>Lovely Dream Resort · Inderpuri, Rohtas</span>
+                                    <h2>Restaurant, Rooms & Events Under One Roof</h2>
                                 </div>
                                 <div className="wpo-about-content-inner">
                                     <div className="about-info-wrap">
                                         <div className="about-info-left">
-                                            <p>2 Days / 3 Night</p>
+                                            <p>Fresh local cuisine · Spacious banquet halls</p>
                                             <ul>
                                                 <li><i className="fa fa-star" aria-hidden="true"></i></li>
                                                 <li><i className="fa fa-star" aria-hidden="true"></i></li>
@@ -31,10 +31,10 @@ const About = () => {
                                             </ul>
                                         </div>
                                         <div className="about-info-right">
-                                            <p>Only</p>
-                                            <h3>$2500</h3>
+                                            <p>Inderpuri</p>
+                                            <h3>Rohtas</h3>
                                         </div>
-                                        <Link onClick={ClickHandler} className="theme-btn" href="/room">Book Now</Link>
+                                        <Link onClick={ClickHandler} className="theme-btn" href="/contact">Reserve a Table / Stay</Link>
                                     </div>
                                 </div>
                             </div>

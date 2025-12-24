@@ -31,7 +31,7 @@ const HomePage = () => {
             <ServiceSection />
             <PricingSection />
             <Testimonial />
-            <BlogSection />
+            {/* <BlogSection /> */}
             <Newslatter />
             <Footer />
             <Scrollbar />

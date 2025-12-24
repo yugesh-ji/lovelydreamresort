@@ -6,7 +6,6 @@ import Link from 'next/link'
 import HeaderTopbar from "../HeaderTopbar";
 import { totalPrice } from "../../utils";
 import shape from "/public/images/hotel.png"
-import Image from 'next/image';
 
 const Header = (props) => {
 
@@ -36,8 +35,8 @@ const Header = (props) => {
                 </div>
                 <div className="col-lg-2 col-md-6 col-6">
                   <div className="navbar-header">
-                    <Link onClick={ClickHandler} className="navbar-brand logo" href="/home">
-                      <Image src={props.Logo} alt="" />
+                    <Link onClick={ClickHandler} className="navbar-brand logo" href="/">
+                      <span className="logo-text">Lovely Dream Resort</span>
                     </Link>
                   </div>
                 </div>
@@ -45,64 +44,21 @@ const Header = (props) => {
                   <div id="navbar" className="collapse navbar-collapse navigation-holder">
                     <button className="menu-close"><i className="ti-close"></i></button>
                     <ul className="nav navbar-nav mb-2 mb-lg-0">
-                      <li className="menu-item-has-children">
-                        <Link href="/" >Home</Link>
-                        <ul className="sub-menu">
-                          <li><Link onClick={ClickHandler} href="/home">Home style 1</Link></li>
-                          <li><Link onClick={ClickHandler} href="/home2">Home style 2</Link></li>
-                          <li><Link onClick={ClickHandler} href="/home3">Home style 3</Link></li>
-                        </ul>
+                      <li>
+                        <Link onClick={ClickHandler} href="/">Home</Link>
                       </li>
-                      <li><Link onClick={ClickHandler} href="/about">About</Link></li>
-                      <li className="menu-item-has-children">
-                        <Link onClick={ClickHandler} href="/">Room</Link>
-                        <ul className="sub-menu">
-                          <li><Link onClick={ClickHandler} href="/room">Room</Link></li>
-                          <li><Link onClick={ClickHandler} href="/room-single/Deluxe-Contrast-Room">Room single</Link></li>
-                        </ul>
+                      <li>
+                        <Link onClick={ClickHandler} href="/about">About</Link>
                       </li>
-                      <li className="menu-item-has-children">
-                        <Link onClick={ClickHandler} href="/">Destinition</Link>
-                        <ul className="sub-menu">
-                          <li><Link onClick={ClickHandler} href="/destination">Destinition</Link></li>
-                          <li><Link onClick={ClickHandler} href="/destination-single/The-Paris-Grand-Palace">Destinition single</Link></li>
-                        </ul>
+                      <li>
+                        <Link onClick={ClickHandler} href="/room">Room</Link>
                       </li>
-                      <li className="menu-item-has-children">
-                        <Link onClick={ClickHandler} href="/blog">Blog</Link>
-                        <ul className="sub-menu">
-                          <li><Link onClick={ClickHandler} href="/blog">Blog right sidebar</Link></li>
-                          <li><Link onClick={ClickHandler} href="/blog-left-sidebar">Blog left sidebar</Link></li>
-                          <li><Link onClick={ClickHandler} href="/blog-fullwidth">Blog fullwidth</Link></li>
-                          <li className="menu-item-has-children">
-                            <Link onClick={ClickHandler} href="/">Blog details</Link>
-                            <ul className="sub-menu">
-                              <li><Link onClick={ClickHandler} href="/blog-single/They-Travel-Together">Blog details right sidebar</Link>
-                              </li>
-                              <li><Link onClick={ClickHandler} href="/blog-single-left-sidebar/They-Travel-Together">Blog details left
-                                sidebar</Link></li>
-                              <li><Link onClick={ClickHandler} href="/blog-single-fullwidth/They-Travel-Together">Blog details
-                                fullwidth</Link></li>
-                            </ul>
-                          </li>
-                        </ul>
+                      <li>
+                        <Link onClick={ClickHandler} href="/destination">Destination</Link>
                       </li>
-                      <li className="menu-item-has-children">
-                        <Link onClick={ClickHandler} href="/">Pages</Link>
-                        <ul className="sub-menu">
-                          <li><Link onClick={ClickHandler} href="/service">Service</Link></li>
-                          <li><Link onClick={ClickHandler} href="/service-s2">Service Style2</Link></li>
-                          <li><Link onClick={ClickHandler} href="/service/Swimming-Pool">Service Single</Link></li>
-                          <li><Link onClick={ClickHandler} href="/cart">Cart</Link></li>
-                          <li><Link onClick={ClickHandler} href="/checkout">Checkout</Link></li>
-                          <li><Link onClick={ClickHandler} href="/pricing">Pricing</Link></li>
-                          <li><Link onClick={ClickHandler} href="/search-result">Search Result</Link></li>
-                          <li><Link onClick={ClickHandler} href="/404">404</Link></li>
-                          <li><Link onClick={ClickHandler} href="/login">Login</Link></li>
-                          <li><Link onClick={ClickHandler} href="/register">Register</Link></li>
-                        </ul>
+                      <li>
+                        <Link onClick={ClickHandler} href="/contact">Contact</Link>
                       </li>
-                      <li><Link onClick={ClickHandler} href="/contact">Contact</Link></li>
                     </ul>
 
                   </div>

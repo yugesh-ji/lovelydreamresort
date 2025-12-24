@@ -17,21 +17,21 @@ const Hero = (props) => {
                         slidesPerView={1}
                         pagination={{ clickable: true }}
                         loop={true}
-                        speed= {1800}
-                        parallax= {true}
+                        speed={1800}
+                        parallax={true}
                         navigation
                     >
                         <SwiperSlide>
-                            <div className="swiper-slide" style={{ backgroundImage: `url(${'/images/slider/slide-1.jpg'})` }}>
+                            <div className="swiper-slide" style={{ backgroundImage: `url(${'/images/home-main.webp'})` }}>
                                 <div className="slide-inner slide-bg-image">
                                     <div className="container-fluid">
                                         <div className="slide-content">
                                             <div data-swiper-parallax="300" className="slide-title">
-                                                <h2>Find Your Perfect Place To Stay</h2>
+                                                <h2>Lovely Dream Resort, Inderpuri</h2>
                                             </div>
                                             <div className="clearfix"></div>
                                             <div data-swiper-parallax="500" className="slide-btns">
-                                                <a href="room.html" className="theme-btn">Book Now</a>
+                                                <a href="/room" className="theme-btn">View Rooms & Dining</a>
                                             </div>
                                         </div>
                                     </div>
@@ -39,16 +39,16 @@ const Hero = (props) => {
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
-                            <div className="swiper-slide" style={{ backgroundImage: `url(${'/images/slider/slide-2.jpg'})` }}>
+                            <div className="swiper-slide" style={{ backgroundImage: `url(${'/images/home-main.webp'})` }}>
                                 <div className="slide-inner slide-bg-image">
                                     <div className="container-fluid">
                                         <div className="slide-content">
                                             <div data-swiper-parallax="300" className="slide-title">
-                                                <h2>Find Your Perfect Place To Stay</h2>
+                                                <h2>Fresh Cuisine & Cozy Stays</h2>
                                             </div>
                                             <div className="clearfix"></div>
                                             <div data-swiper-parallax="500" className="slide-btns">
-                                                <a href="room.html" className="theme-btn">Book Now</a>
+                                                <a href="/contact" className="theme-btn">Reserve a Table</a>
                                             </div>
                                         </div>
                                     </div>
@@ -56,16 +56,16 @@ const Hero = (props) => {
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
-                            <div className="swiper-slide" style={{ backgroundImage: `url(${'/images/slider/slide-3.jpg'})` }}>
+                            <div className="swiper-slide" style={{ backgroundImage: `url(${'/images/home-main.webp'})` }}>
                                 <div className="slide-inner slide-bg-image">
                                     <div className="container-fluid">
                                         <div className="slide-content">
                                             <div data-swiper-parallax="300" className="slide-title">
-                                                <h2>Find Your Perfect Place To Stay</h2>
+                                                <h2>Rohtas Hospitality, Heartfelt Service</h2>
                                             </div>
                                             <div className="clearfix"></div>
                                             <div data-swiper-parallax="500" className="slide-btns">
-                                                <a href="room.html" className="theme-btn">Book Now</a>
+                                                <a href="/contact" className="theme-btn">Plan Your Visit</a>
                                             </div>
                                         </div>
                                     </div>

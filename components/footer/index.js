@@ -1,8 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
-import Logo from '/public/images/logo.png'
 import Services from '../../api/service'
-import Image from 'next/image'
 
 
 const Footer = (props) => {
@@ -19,19 +17,13 @@ const Footer = (props) => {
                         <div className="col col-lg-3 col-md-6 col-sm-12 col-12">
                             <div className="widget about-widget">
                                 <div className="logo widget-title">
-                                    <Image src={Logo} alt="footer" />
+                                    <span className="footer-logo-text">Lovely Dream Resort</span>
                                 </div>
-                                <p>Management consulting includes a broad range of activities, and the many firms and
-                                    their members often define these practices.</p>
+                                <p>Lovely Dream Resort · Inderpuri, Rohtas — restaurant, rooms, banquets, and lawns for every celebration.</p>
                                 <ul>
                                     <li>
                                         <Link onClick={ClickHandler} href="/">
                                             <i className="ti-facebook"></i>
-                                        </Link>
-                                    </li>
-                                    <li>
-                                        <Link onClick={ClickHandler} href="/">
-                                            <i className="ti-twitter-alt"></i>
                                         </Link>
                                     </li>
                                     <li>
@@ -41,11 +33,12 @@ const Footer = (props) => {
                                     </li>
                                     <li>
                                         <Link onClick={ClickHandler} href="/">
-                                            <i className="ti-google"></i>
+                                            <i className="ti-twitter-alt"></i>
                                         </Link>
                                     </li>
                                 </ul>
                             </div>
+
                         </div>
                         <div className="col col-lg-3 col-md-6 col-sm-12 col-12">
                             <div className="widget link-widget s1">
@@ -66,10 +59,10 @@ const Footer = (props) => {
                                 </div>
                                 <ul>
                                     <li><Link onClick={ClickHandler} href="/about">About Us</Link></li>
-                                    <li><Link onClick={ClickHandler} href="/destination">Populer Destinition</Link></li>
-                                    <li><Link onClick={ClickHandler} href="/room">Awesome Rooms</Link></li>
-                                    <li><Link onClick={ClickHandler} href="/service">Our Services</Link></li>
-                                    <li><Link onClick={ClickHandler} href="/pricing">Pricing Plan</Link></li>
+                                    <li><Link onClick={ClickHandler} href="/destination">Venues & Lawns</Link></li>
+                                    <li><Link onClick={ClickHandler} href="/room">Rooms & Suites</Link></li>
+                                    <li><Link onClick={ClickHandler} href="/service">Dining & Events</Link></li>
+                                    <li><Link onClick={ClickHandler} href="/contact">Contact</Link></li>
                                 </ul>
                             </div>
                         </div>
@@ -81,14 +74,14 @@ const Footer = (props) => {
                                 </div>
                                 <div className="contact-ft">
                                     <ul>
-                                        <li><i className="fi flaticon-placeholder"></i>7 Green Lake Street Crawfordsville, IN
-                                            47933</li>
-                                        <li><i className="fi flaticon-phone-call"></i>+1 800 123 456 789</li>
-                                        <li><i className="fi flaticon-send"></i>parador@gmail.com</li>
+                                        <li><i className="fi flaticon-placeholder"></i>Inderpuri, Rohtas, Bihar</li>
+                                        <li><i className="fi flaticon-phone-call"></i>+91 99999 99999</li>
+                                        <li><i className="fi flaticon-send"></i>hello@lovelydreamresort.com</li>
                                     </ul>
                                 </div>
                             </div>
                         </div>
+
                     </div>
                 </div>
             </div>
@@ -96,11 +89,11 @@ const Footer = (props) => {
                 <div className="container">
                     <div className="row">
                         <div className="col col-xs-12">
-                            <p className="copyright"> Copyright &copy; 2023 Parador by <Link onClick={ClickHandler} href="/">wpOceans</Link>.
-                                All Rights Reserved.</p>
+                            <p className="copyright"> 2025 Lovely Dream Resort, Inderpuri · Rohtas. All Rights Reserved.</p>
                         </div>
                     </div>
                 </div>
+
             </div>
         </footer>
     )
