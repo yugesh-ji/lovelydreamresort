@@ -1,0 +1,23 @@
+
+> lovaly-dream-resort@1.0.0 build
+> next build
+
+▲ Next.js 16.2.6 (Turbopack)
+
+  Creating an optimized production build ...
+✓ Compiled successfully in 3.2s
+  Running TypeScript ...
+Failed to type check.
+
+./app/page.tsx:15:8
+Type error: Type '{ children: Element; initial: { opacity: number; }; animate: { opacity: number; }; transition: { duration: number; }; }' is not assignable to type 'IntrinsicAttributes & HTMLAttributesWithoutMotionProps<unknown, unknown> & MotionProps & RefAttributes<unknown>'.
+  Property 'children' does not exist on type 'IntrinsicAttributes & HTMLAttributesWithoutMotionProps<unknown, unknown> & MotionProps & RefAttributes<unknown>'.
+
+  [90m13 |[0m       <[33mNavbar[0m />
+  [90m14 |[0m       <[33mHeroSection[0m />
+[31m[1m>[0m [90m15 |[0m       <motion.div
+  [90m   |[0m        [31m[1m^[0m
+  [90m16 |[0m         initial={{ opacity: [35m0[0m }}
+  [90m17 |[0m         animate={{ opacity: [35m1[0m }}
+  [90m18 |[0m         transition={{ duration: [35m0.5[0m }}
+Next.js build worker exited with code: 1 and signal: null

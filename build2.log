@@ -1,0 +1,22 @@
+
+> lovaly-dream-resort@1.0.0 build
+> next build
+
+▲ Next.js 16.2.6 (Turbopack)
+
+  Creating an optimized production build ...
+✓ Compiled successfully in 3.4s
+  Running TypeScript ...
+Failed to type check.
+
+./app/layout.tsx:8:38
+Type error: Binding element 'children' implicitly has an 'any' type.
+
+  [90m 6 |[0m };
+  [90m 7 |[0m
+[31m[1m>[0m [90m 8 |[0m [36mexport[0m [36mdefault[0m [36mfunction[0m [33mRootLayout[0m({ children }) {
+  [90m   |[0m                                      [31m[1m^[0m
+  [90m 9 |[0m   [36mreturn[0m (
+  [90m10 |[0m     <html lang=[32m"en"[0m>
+  [90m11 |[0m       <body>
+Next.js build worker exited with code: 1 and signal: null
