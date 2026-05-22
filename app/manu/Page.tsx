@@ -1,8 +1,3 @@
-Here is the complete, updated code containing every single menu item from your PDF document.
-To fulfill your request for internet photos without requiring complex image configuration in your next.config.js file, I have implemented standard HTML <img> tags utilizing a dynamic placeholder image service (LoremFlickr). This service will automatically fetch random, relevant food images based on the category keywords.
-### Full Menu Page Code
-Copy and replace the contents of your app/menu/page.tsx (or your desired page file) with the code below.
-```tsx
 "use client";
 
 import React, { useState } from 'react';
@@ -367,5 +362,3 @@ export default function MenuPage() {
     </div>
   );
 }
-
-```
