@@ -12,17 +12,17 @@ const Navbar = () => {
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.8 }}
         >
-          <Link href="#home" className="text-2xl md:text-3xl font-bold text-deep-gold text-glow font-serif">
+          <Link href="/#home" className="text-2xl md:text-3xl font-bold text-deep-gold text-glow font-serif">
             Lovaly Dream Resort
           </Link>
         </motion.div>
         <div className="hidden md:flex space-x-8 items-center">
-          <Link href="#home" className="text-light-accent hover:text-deep-gold transition duration-300">Home</Link>
-          <Link href="#about" className="text-light-accent hover:text-deep-gold transition duration-300">About</Link>
-          <Link href="#services" className="text-light-accent hover:text-deep-gold transition duration-300">Services</Link>
-          <Link href="#gallery" className="text-light-accent hover:text-deep-gold transition duration-300">Gallery</Link>
-          <Link href="#contact" className="text-light-accent hover:text-deep-gold transition duration-300">Contact</Link>
-          <Link href="#book" className="bg-emerald-green text-white px-6 py-2 rounded-full hover:bg-emerald-700 transition shadow-lg hover:shadow-glow">
+          <Link href="/#home" className="text-light-accent hover:text-deep-gold transition duration-300">Home</Link>
+          <Link href="/#about" className="text-light-accent hover:text-deep-gold transition duration-300">About</Link>
+          <Link href="/#services" className="text-light-accent hover:text-deep-gold transition duration-300">Services</Link>
+          <Link href="/#gallery" className="text-light-accent hover:text-deep-gold transition duration-300">Gallery</Link>
+          <Link href="/#contact" className="text-light-accent hover:text-deep-gold transition duration-300">Contact</Link>
+          <Link href="/#book" className="bg-emerald-green text-white px-6 py-2 rounded-full hover:bg-emerald-700 transition shadow-lg hover:shadow-glow">
             Book Now
           </Link>
         </div>
